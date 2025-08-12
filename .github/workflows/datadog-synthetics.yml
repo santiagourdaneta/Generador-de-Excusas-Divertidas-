@@ -12,6 +12,8 @@
 # 2. Start using the action within your workflow
 
 name: Run Datadog Synthetic tests
+permissions:
+  contents: read
 
 on:
   push:
