@@ -1,0 +1,20 @@
+### 🚫 Archivo `.gitignore`
+
+# Archivos de Go
+*.exe
+*.test
+*.prof
+
+# Directorios generados
+/bin
+/pkg
+/vendor
+
+# Base de datos local
+excuses.db
+
+# Archivos de módulo de Go
+go.sum
+
+# macOS
+.DS_Store
